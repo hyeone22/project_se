@@ -84,11 +84,11 @@ a.btn_next{right: 30px;background-position: -30px 0;}
   background: #f4f7fb url(../images/bg_newsletter.jpg)no-repeat 0 50%;}
 
 .content2>.social_menu>.newsletter>h3{font-size: 22px;font-weight: bold;text-align: left;padding-left: 150px;margin-bottom: 10px;}
-.content2>.social_menu>.newsletter>p{ font-size: 13px;color: #ccc;font-weight: 500;text-align: center;margin-bottom: 20px;padding-left: 75px;}
+.content2>.social_menu>.newsletter>p{font-size: 13px;color: #ccc;font-weight: 500;text-align: center;margin-bottom: 20px;padding-left: 75px;}
 
 .newsletter>ul{display: flex;flex-direction: row;justify-content: right;}
 .newsletter>ul>li{margin-right: 20px;}
-.newsletter>ul>li:last-child{margin: none;}
+.newsletter>ul>li:last-child{margin: 0;}
 .newsletter>ul>li>a{display: block;width: 150px;height: 45px;text-align: center;line-height: 45px;
   background: #fff url(../images/btn_arrow_ico_g.png) no-repeat 90% 50%;}
 
