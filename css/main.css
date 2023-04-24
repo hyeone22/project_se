@@ -43,7 +43,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}
 .content1>ul>li:last-child>dl>dt{vertical-align: middle;margin-bottom: 10px;}
 
 
-.content1>ul>li:last-child>dl>dt{display: inline-block;font-size: 12px;background: #ccc;
+.content1>ul>li:last-child>dl>dt{display: inline-block;font-size: 12px;background: #595959;
   width: 60px;height: 25px;border-radius: 5px;line-height: 25px;color: #fff;text-align: center;}
 
 /* 기업소개 */
@@ -74,17 +74,18 @@ a.btn_next{right: 30px;background-position: -30px 0;}
 .text_area{padding: 20px 15px;box-sizing: border-box;}
 .text_area>p{font-size: 20px;height: 58px; word-wrap: break-word;word-break: keep-all;}
 .top_text>p{font-size: 13px;font-weight: bold; color: #043285;}
-.top_text>p>span{color: #ccc;margin-left: 3px;font-weight: 400;}
+.top_text>p>span{color: #595959;margin-left: 3px;font-weight: 400;}
 .content2>ul>li>span{display: block;font-size: 16px;color: #333;}  
 .content2>ul>li:hover{ border-bottom: 3px solid #043285;box-sizing: border-box;
   box-shadow: 1px 1px 20px rgba(90, 90, 110,.5)}
 
+.content2{background-color: #fff;}  
 .content2>.social_menu{display: flex;flex-direction: row;justify-content: space-between;}
 .content2>.social_menu>.newsletter{width: 540px;padding: 40px;
   background: #f4f7fb url(../images/bg_newsletter.jpg)no-repeat 0 50%;}
 
 .content2>.social_menu>.newsletter>h3{font-size: 22px;font-weight: bold;text-align: left;padding-left: 150px;margin-bottom: 10px;}
-.content2>.social_menu>.newsletter>p{font-size: 13px;color: #ccc;font-weight: 500;text-align: center;margin-bottom: 20px;padding-left: 75px;}
+.content2>.social_menu>.newsletter>p{font-size: 13px;color: #595959;font-weight: 500;text-align: center;margin-bottom: 20px;padding-left: 75px;}
 
 .newsletter>ul{display: flex;flex-direction: row;justify-content: right;}
 .newsletter>ul>li{margin-right: 20px;}
@@ -94,7 +95,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}
 
 .content2>.social_menu>.social{width: 540px;padding: 40px; background: #f4f7fb}
 .social>h3{font-size: 22px;font-weight: bold;text-align: left;;margin-bottom: 10px;}
-.social>p{font-size: 13px;color: #ccc;font-weight: 500;text-align: left;margin-bottom: 20px;}
+.social>p{font-size: 13px;color: #595959;font-weight: 500;text-align: left;margin-bottom: 20px;}
 .social>ul{width: 100%;}
 .social>ul{display: flex;flex-direction: row;}
 .social>ul>li{margin-right: 40px;}
