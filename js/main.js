@@ -211,8 +211,6 @@ lisa.forEach((el,i)=>{
   });
 })
 
-});
-
 let sections = document.querySelectorAll(".section");
 let devHeight;
 devHeight = window.innerHeight;
@@ -248,3 +246,6 @@ for(let i = 0; i < sections.length; i++) {
     }
   });
 }
+
+});
+
