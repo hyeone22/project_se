@@ -212,3 +212,39 @@ lisa.forEach((el,i)=>{
 })
 
 });
+
+let sections = document.querySelectorAll(".section");
+let devHeight;
+devHeight = window.innerHeight;
+
+window.addEventListener("resize",()=>{
+  devHeight = window.innerHeight;
+  console.log(devHeight);
+});
+
+for(let i = 0; i < sections.length; i++) {
+  sections[i].addEventListener('wheel', function(e) {
+    e.preventDefault();
+    const sectionHeight = sections[i].offsetHeight;
+    const sectionTop = sections[i].offsetTop;
+    const scrollDirection = e.deltaY > 0 ? 'down' : 'up';
+    
+    if (scrollDirection === 'down' && sectionTop + sectionHeight < document.body.scrollHeight) {
+      // Scroll to next section if there is one
+      window.scroll({
+        top: sectionTop + sectionHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+  
+    } else if (scrollDirection === 'up' && sectionTop > 0) {
+      // Scroll to previous section if there is one
+      window.scroll({
+        top: sectionTop - sectionHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+ 
+    }
+  });
+}

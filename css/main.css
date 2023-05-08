@@ -27,7 +27,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}
 .slide_roll>a.btn_play.on{background-position: -9px 0;}
 
 /* container */
-#container{background: url(../images/bg_newsroom.jpg) no-repeat 50% 610px;}
+#container{background: url(../images/bg_newsroom.jpg) no-repeat 50% 630px;}
 
 /* content1 */
 .content1>h2{margin-bottom: 70px; font-size: 34px;font-weight: bold;text-align: center;line-height: 1;}
